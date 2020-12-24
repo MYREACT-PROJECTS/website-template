@@ -1,0 +1,173 @@
+const [images,setImages] = useState([])
+
+     useEffect( ()=>{
+        axios.get('js/data.json').then(res => {setImages(res.data.works)})
+        console.log({images})
+     } , [ ] )
+
+     const portfolioImages = images.map( (res) =>{
+        return(
+           <Imagewrapper key= {res.id}>
+           <Image src={res.Image} alt=""/>
+           <Overlay>
+               <OverlaySpan>
+                   Show Image
+               </OverlaySpan>
+           </Overlay>
+       </Imagewrapper>
+
+        )
+       
+    } )
+
+
+    //////////////////////////////////////////
+    state= {
+
+    portfolio:[
+          
+              
+            {
+                "id":1,
+                "image": "https://www.goldenazar.com.tr/wp-content/uploads/2020/09/pink2-scaled.jpg"
+            },
+            {
+                "id":2,
+                "image": "https://www.goldenazar.com.tr/wp-content/uploads/2020/09/pink2-scaled.jpg"
+            },
+            {
+                "id":3,
+                "image": "https://www.goldenazar.com.tr/wp-content/uploads/2020/09/pink2-scaled.jpg"
+            },
+            {
+                "id":4,
+                "image": "https://www.goldenazar.com.tr/wp-content/uploads/2020/09/pink2-scaled.jpg"
+            },
+            {
+                "id":5,
+                "image": "https://www.goldenazar.com.tr/wp-content/uploads/2020/09/pink2-scaled.jpg"
+            },
+            {
+                "id":6,
+                "image": "https://www.goldenazar.com.tr/wp-content/uploads/2020/09/pink2-scaled.jpg"
+            },
+            {
+                "id":7,
+                "image": "https://www.goldenazar.com.tr/wp-content/uploads/2020/09/pink2-scaled.jpg"
+            },
+            {
+                "id":8,
+                "image": "https://www.goldenazar.com.tr/wp-content/uploads/2020/09/pink2-scaled.jpg"
+            }
+        ] ,
+    
+
+}
+componentDidMount(){
+    console.log(this.state.portfolio)
+    }
+
+
+   render(){
+    
+    const images=this.state.portfolio;
+    const portfolioImages = images.map( (res)=>{
+        return(
+           <Imagewrapper key= {res.id}>
+           <Image src={res.image}/>
+           <Overlay>
+               <OverlaySpan>
+                   Show Image
+               </OverlaySpan>
+           </Overlay>
+       </Imagewrapper>
+
+        )
+       
+        
+    }
+    )
+
+    //////////////////////////
+     useEffect( ()=>{
+        const ss= axios.get('https://jsonplaceholder.typicode.com/posts').then(res => {setImages(res)})
+        console.log(ss)
+     } , [ ] )
+///////////////////////////
+const [images,setImages] = useState([
+       {
+
+        id    : "1",
+        image : "https://www.goldenazar.com.tr/wp-content/uploads/2020/09/pink2-scaled.jpg",
+        id    : "3",
+        image : "https://img.kooora.com/?i=reuters%2f2020-11-24%2f2020-11-24t193628z_404326710_up1egbo1igs7s_rtrmadp_3_soccer-champions-juv-fer-report_reuters.jpg",
+        id    : "4",
+        image : "https://www.goldenazar.com.tr/wp-content/uploads/2020/09/pink2-scaled.jpg"
+    }
+
+    ])
+
+    
+     useEffect( ()=>{
+
+
+     
+       
+              
+
+
+        
+            
+                     
+     
+
+             
+     },[ ])
+            
+    
+     const portfolioImages = images.map( (res) =>{
+        return(
+             
+           <Imagewrapper first= {res.id} key= {res.id}>
+           <Image src={res.image} alt=""/>
+           <Overlay>
+               <OverlaySpan>
+             {res.id}
+               </OverlaySpan>
+           </Overlay>
+       </Imagewrapper>
+
+        )
+       
+    })
+       ///////////////////////
+       
+
+
+        <OverlaySpan>
+                 jhjjjjjjjjjjjjjjjjjjjjj
+               </OverlaySpan>
+
+               //////////////////
+               <SkillsBar>
+                        <SkillsBarTitle>Bootstrap</SkillsBarTitle>
+                        <SkillsBarTitlePerc>100%</SkillsBarTitlePerc>
+                        <SkillsBarParent>
+                            <Sp1></Sp1>
+                        </SkillsBarParent>
+                    </SkillsBar>
+                    <SkillsBar>
+                        <SkillsBarTitle>CSS3</SkillsBarTitle>
+                        <SkillsBarTitlePerc>90%</SkillsBarTitlePerc>
+                        <SkillsBarParent>
+                            <Sp2></Sp2>
+                        </SkillsBarParent>
+                    </SkillsBar>
+                    
+                    <SkillsBar>
+                        <SkillsBarTitle>Photoshop</SkillsBarTitle>
+                        <SkillsBarTitlePerc>80%</SkillsBarTitlePerc>
+                        <SkillsBarParent>
+                            <Sp3></Sp3>
+                        </SkillsBarParent>
+                    </SkillsBar>
