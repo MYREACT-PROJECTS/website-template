@@ -20,6 +20,7 @@ class Start extends React.Component {
     <Profile/>
     <About/>
     <SocialMedia/>
+    <Footer/>
     </div>
   );
 }

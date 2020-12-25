@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+
+import './Desgin.css'
 
 const Footer = ()=>{
 return(
-    <div>
-        Footer
-    </div>
+
+    <div class="footer">
+    <p> copyright &copy; 2018 by KTELLAWI</p>
+</div>
+
+
 )
 
 }

@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import {Drop, DropTitle, FormInput, InputExp, TextArea,InputText,InputEmail,InptutSubmit, TitleSpan } from './Desgin';
+import Footer from '../Footer/Index';
+
 //import './Desgin.css'
 const Contact = ()=>{
 return(
+    <React.Fragment>
+        
+ 
     <Drop>
             <div class="container">
                 <DropTitle><TitleSpan>Drop </TitleSpan>Me A line</DropTitle>
@@ -17,6 +22,8 @@ return(
                 </form>
             </div>
         </Drop>
+        <Footer/>
+        </React.Fragment>
 )
 
 }
