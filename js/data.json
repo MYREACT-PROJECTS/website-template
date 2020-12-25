@@ -1,0 +1,101 @@
+{
+    "works" : [
+        {
+            "id" : 1,
+            "icon_name": "icon fa fa-chain fa-2x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id" : 2,
+            "icon_name": "icon fa fa-bolt fa-2x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id" : 3,
+            "icon_name": "icon fa fa-tachometer fa-2x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        }
+    ],
+
+    "portfolio" : [
+        {
+            "id":1,
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8df0b627235079.56361c6431ede.jpg"
+        },
+        {
+            "id":2,
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8df0b627235079.56361c6431ede.jpg"
+        },
+        {
+            "id":3,
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8df0b627235079.56361c6431ede.jpg"
+        },
+        {
+            "id":4,
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8df0b627235079.56361c6431ede.jpg"
+        },
+        {
+            "id":5,
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8df0b627235079.56361c6431ede.jpg"
+        },
+        {
+            "id":6,
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8df0b627235079.56361c6431ede.jpg"
+        },
+        {
+            "id":7,
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8df0b627235079.56361c6431ede.jpg"
+        },
+        {
+            "id":8,
+            "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8df0b627235079.56361c6431ede.jpg"
+        }
+    ] ,
+   
+    "social" : [
+
+        {
+            "id":0,
+            "icon" : "icon fa fa-twitter fa-lg",
+            "title" : "Tweet Me on",
+            "body" : "Social twitter"
+            
+        },
+        {
+            "id":1,
+            "icon" : "icon fa fa-facebook fa-lg",
+            "title" : "Follow Me on",
+            "body" : "Social Facebook"
+            
+        },
+        {
+            "id": 22,
+            "icon" : "icon fa fa-pinterest fa-lg",
+            "title" : "Pin Me on",
+            "body" : "Social Pinterest"
+        }
+    ],
+    
+    "profile" : [
+        {
+            "id": 1,
+            "skill" : "bootstrab",
+            "level" : "80%"
+        },
+        {
+            "id": 2,
+            "skill" : "photoshop",
+            "level" : "70%"
+            
+        },
+        {
+            "id": 3,
+            "skill" : "CSS3",
+            "level" : "85%"
+            
+        }
+    ] 
+}
